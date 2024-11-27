@@ -27,16 +27,6 @@ requirements:
     - inflection >=0.3.1
     - python-dateutil >=2.7.3
     - python-magic >=0.4.15
-    # amazon
-    - boto3 >=1.8.00
-    # google
-    - google-cloud-storage >=1.18.0
-    - requests >=2.19.1
-    # local
-    - filelock >=3.0.0
-    - itsdangerous >=1.1.0
-    - if: not win
-      then: xattr >=0.9.6
 
 tests:
   - python:
