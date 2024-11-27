@@ -1,6 +1,7 @@
 context:
   name: cloudstorage
   version: 0.11.0
+  python_min: "3.9"
 
 package:
   name: ${{ name|lower }}
