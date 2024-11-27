@@ -10,6 +10,8 @@ package:
 source:
   url: https://github.com/scottwernervt/cloudstorage/archive/refs/tags/v${{ version }}.zip
   sha256: c624eb217a67c8c477b4951ddb41a66ebe5d93644b5f8f60c14c09cabecfb021
+  patches:
+    - setup.patch
 
 build:
   number: 0
